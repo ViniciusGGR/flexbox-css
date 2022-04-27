@@ -18,3 +18,33 @@
     border-radius: 8px;
     margin: 8px;
 }
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background: cadetblue;
+}
+
+.column {
+    float: left;
+    flex-direction: column;
+}
+
+.column li {
+    background: indianred;
+}
+
+.column-reverse {
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li {
+    background: lightblue;
+}
