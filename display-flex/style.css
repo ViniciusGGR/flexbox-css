@@ -3,9 +3,11 @@
     padding: 10px;
     border: 2px solid rgb(110, 17, 233);
     border-radius: 12px;
+    /** Cada item dentro do container passa a ocupar o máximo do seu conteúdo e se abrigar dentro desse container respeitando a orientação em linha. **/
     display: flex;
 }
 
+/** Classe aplicada aos "filhos" do container **/
 .item {
     background-color: cornflowerblue;
     margin: 8px;
