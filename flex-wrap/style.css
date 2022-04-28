@@ -1,1 +1,38 @@
+.flex-container {
+    display: flex;
+    height: 150px;
+    border: 2px solid rgb(121, 0, 227);
+    max-width: 300px;
+}
+
+.item {
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    min-width: 100px;
+    line-height: 50px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.cadetblue {
+    background: cadetblue;
+}
+
+.cornflowerblue {
+    background: cornflowerblue;
+}
 
