@@ -1,13 +1,13 @@
 .flex-container {
     display: flex;
-    height: 150px;
+    height: 100%;
     border: 2px solid rgb(121, 0, 227);
-    max-width: 300px;
+    max-width: 324px;
 }
 
 .item {
     font-size: 24px;
-    height: 50%;
+    height: 50px;
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,9 +30,15 @@
 
 .cadetblue {
     background: cadetblue;
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-bottom: 4px;
 }
 
 .cornflowerblue {
     background: cornflowerblue;
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-bottom: 4px;
 }
 
