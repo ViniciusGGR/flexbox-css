@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    border: 2px solid cadetblue;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.default {
+    flex-flow: row nowrap;
+}
+
+.wrap {
+    flex-flow: row wrap;
+}
+
+.wrap-reverse {
+    flex-flow: row wrap-reverse;
+}
+
+.r-nowrap {
+    flex-flow: row-reverse nowrap;
+}
+
+.r-wrap {
+    flex-flow: row-reverse wrap;
+}
+
+.rr-wrap {
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.item {
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
