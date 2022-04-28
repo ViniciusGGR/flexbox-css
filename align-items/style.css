@@ -1,0 +1,77 @@
+.container {
+    max-width: 350px;
+    border: 2px solid cornflowerblue;
+    display: flex;
+}
+
+.item {
+    background-color: mediumpurple;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    flex: 1;
+}
+
+.flex {
+    flex: 1;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.center {
+    align-items: center;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.central {
+    height: 400px;
+    justify-content: center;
+}
+
+.central .item {
+    flex: 0;
+    padding: 20px;
+}
