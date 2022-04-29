@@ -1,0 +1,58 @@
+.container {
+    height: 550px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid cornflowerblue;
+}
+
+.item {
+    background-color: mediumslateblue;
+    padding: 8px;
+    margin: 4px;
+    flex: 1;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.center {
+    align-content: center;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+
+.flex-end {
+    align-content: flex-end;
+}
+
+.space-between {
+    align-content: space-between;
+}
+
+.space-around {
+    align-content: space-around;
+}
