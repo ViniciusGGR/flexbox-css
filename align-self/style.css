@@ -1,0 +1,65 @@
+.flex-container {
+    display: flex;
+    border: 2px solid cornflowerblue;
+    max-width: 400px;
+    margin-bottom: 12px;
+}
+
+.align-container {
+    align-items: center;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    background-color: slategray;
+    margin: 6px;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.center {
+    align-self: center;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+.auto {
+    align-self: auto;
+}
