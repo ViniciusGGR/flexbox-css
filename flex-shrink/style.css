@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    border: 2px solid cornflowerblue;
+    max-width: 350px;
+    margin-bottom: 12px;
+}
+
+.item {
+    background-color: mediumslateblue;
+    margin: 6px;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.s-1 {
+    flex-shrink: 1;
+}
+
+.s-0 {
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.s-2 {
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.s-3 {
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
